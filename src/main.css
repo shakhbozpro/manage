@@ -1,0 +1,39 @@
+/* Fonts */
+
+@font-face {
+   font-family: 'Be Vietnam Pro';
+   font-display: swap;
+   font-weight: 400;
+   src: url('../fonts/be-vietnam-pro-v10-latin-regular.woff2') format('woff2'),
+   url('../fonts/be-vietnam-pro-v10-latin-regular.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Be Vietnam Pro';
+   font-display: swap;
+   font-weight: 500;
+   src: url('../fonts/be-vietnam-pro-v10-latin-500.woff2') format('woff2'),
+   url('../fonts/be-vietnam-pro-v10-latin-500.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Be Vietnam Pro';
+   font-display: swap;
+   font-weight: 700;
+   src: url('../fonts/be-vietnam-pro-v10-latin-700.woff2') format('woff2'),
+   url('../fonts/be-vietnam-pro-v10-latin-700.woff') format('woff');
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+.burger-btn {
+   width: 25px;
+   height: 18px;
+   background-image: url("../images/burger-menu.svg");
+}
+
+.nav-open {
+   transform: translateX(0);
+}
